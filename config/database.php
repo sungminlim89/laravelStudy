@@ -37,10 +37,7 @@ return [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
-<<<<<<< HEAD
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
-=======
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         ],
 
         'mysql' => [
@@ -54,10 +51,7 @@ return [
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
-<<<<<<< HEAD
             'prefix_indexes' => true,
-=======
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
             'strict' => true,
             'engine' => null,
         ],
@@ -71,10 +65,7 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
-<<<<<<< HEAD
             'prefix_indexes' => true,
-=======
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
@@ -88,10 +79,7 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
-<<<<<<< HEAD
             'prefix_indexes' => true,
-=======
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         ],
 
     ],
@@ -115,11 +103,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | Redis is an open source, fast, and advanced key-value store that also
-<<<<<<< HEAD
     | provides a richer body of commands than a typical key-value system
-=======
     | provides a richer set of commands than a typical key-value systems
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
     | such as APC or Memcached. Laravel makes it easy to dig right in.
     |
     */
