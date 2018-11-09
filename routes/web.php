@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('shares', 'ShareController');
+Route::resource('products', 'ProductController');
+Route::resource('shares', 'ShareController')
