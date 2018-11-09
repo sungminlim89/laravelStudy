@@ -1,14 +1,11 @@
 <!doctype html>
-<<<<<<< HEAD
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-=======
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
@@ -58,11 +55,8 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-<<<<<<< HEAD
                 font-size: 13px;
-=======
                 font-size: 12px;
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -82,14 +76,11 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
-<<<<<<< HEAD
 
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}">Register</a>
                         @endif
-=======
                         <a href="{{ route('register') }}">Register</a>
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
                     @endauth
                 </div>
             @endif

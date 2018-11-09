@@ -13,7 +13,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'accepted' => 'The :attribute must be accepted.',
     'active_url' => 'The :attribute is not a valid URL.',
     'after' => 'The :attribute must be a date after :date.',
@@ -114,7 +113,6 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
-=======
     'accepted'             => 'The :attribute must be accepted.',
     'active_url'           => 'The :attribute is not a valid URL.',
     'after'                => 'The :attribute must be a date after :date.',
@@ -214,7 +212,6 @@ return [
     'unique'               => 'The :attribute has already been taken.',
     'uploaded'             => 'The :attribute failed to upload.',
     'url'                  => 'The :attribute format is invalid.',
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
 
     /*
     |--------------------------------------------------------------------------
@@ -238,15 +235,12 @@ return [
     | Custom Validation Attributes
     |--------------------------------------------------------------------------
     |
-<<<<<<< HEAD
     | The following language lines are used to swap our attribute placeholder
     | with something more reader friendly such as "E-Mail Address" instead
     | of "email". This simply helps us make our message more expressive.
-=======
     | The following language lines are used to swap attribute place-holders
     | with something more reader friendly such as E-Mail Address instead
     | of "email". This simply helps us make messages a little cleaner.
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
     |
     */
 

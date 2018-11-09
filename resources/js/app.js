@@ -34,11 +34,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-<<<<<<< HEAD
-=======
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
->>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
 const app = new Vue({
     el: '#app'
 });
