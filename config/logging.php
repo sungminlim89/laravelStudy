@@ -1,7 +1,10 @@
 <?php
 
 use Monolog\Handler\StreamHandler;
+<<<<<<< HEAD
 use Monolog\Handler\SyslogUdpHandler;
+=======
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
 
 return [
 
@@ -36,7 +39,11 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
+<<<<<<< HEAD
             'channels' => ['daily'],
+=======
+            'channels' => ['single'],
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         ],
 
         'single' => [
@@ -49,7 +56,11 @@ return [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
             'level' => 'debug',
+<<<<<<< HEAD
             'days' => 14,
+=======
+            'days' => 7,
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         ],
 
         'slack' => [
@@ -60,6 +71,7 @@ return [
             'level' => 'critical',
         ],
 
+<<<<<<< HEAD
         'papertrail' => [
             'driver'  => 'monolog',
             'level' => 'debug',
@@ -70,6 +82,8 @@ return [
             ],
         ],
 
+=======
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
         'stderr' => [
             'driver' => 'monolog',
             'handler' => StreamHandler::class,

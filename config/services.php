@@ -17,7 +17,10 @@ return [
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
+<<<<<<< HEAD
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
+=======
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
     ],
 
     'ses' => [
@@ -34,10 +37,13 @@ return [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
+<<<<<<< HEAD
         'webhook' => [
             'secret' => env('STRIPE_WEBHOOK_SECRET'),
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
+=======
+>>>>>>> 8b3727eda15e928db26e8643040ff2123745161f
     ],
 
 ];
