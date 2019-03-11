@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
+title: "Welcome to Sungmin's git!"
+date: 2019-03-11 08:26:28 -0400
 categories: jekyll update
 ---
