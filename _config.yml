@@ -15,10 +15,10 @@ remote_theme             : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ja-JA"
 title                    : "林成珉のGit"
 title_separator          : "-"
-name                     : "林成珉（Sungmin Lim）"
+name                     : "林成珉（イムソンミン）"
 description              : "開発者"
 url                      : "https://sungminlim89.github.io"
 baseurl                  : "/laravelStudy"
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sungmin Lim"
+  name             : "林成珉（イムソンミン）"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "開発者"
   location         : "東京都"
