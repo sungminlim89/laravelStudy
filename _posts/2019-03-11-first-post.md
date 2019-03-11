@@ -1,7 +1,7 @@
 ---
 title: "イムのギットにようこそ!"
 date: 2019-03-11 08:26:28 -0400
-categories: jekyll update
+categories:
 ---
 [自分のララベルプロジェクトをご覧ください。](http://13.231.107.102/)  
 [こちらは私のギットハブでございます。](https://github.com/sungminlim89)
