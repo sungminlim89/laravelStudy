@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sungmin Lim's Git"
+title                    : "林成珉のGit"
 title_separator          : "-"
-name                     : "Sungmin Lim(林成珉)"
-description              : "Developer."
+name                     : "林成珉（Sungmin Lim）"
+description              : "開発者"
 url                      : "https://sungminlim89.github.io"
 baseurl                  : "/laravelStudy"
 repository               : "sungminlim89/laravelStudy"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "Sungmin Lim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer"
-  location         : "Tokyo, Japan"
+  bio              : "開発者"
+  location         : "東京都"
   email            : "sungminlim8909@gmail.com"
   links:
     - label: "Email"
